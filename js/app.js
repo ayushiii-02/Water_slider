@@ -228,17 +228,22 @@ export default class Sketch {
     );
   }
 
-  resolveImageUrl(image) {
-    if (image.startsWith("http://") || image.startsWith("https://")) {
-      return image;
-    }
-
-    if (image.startsWith("assets/") || image.startsWith("./")) {
-      return image.startsWith("./") ? image : `/${image}`;
-    }
-
-    return `/assets/projects/${image}`;
+resolveImageUrl(image) {
+  if (image.startsWith("http://") || image.startsWith("https://")) {
+    return image;
   }
+
+  const basePath =
+    typeof window !== "undefined" && window.location.pathname.startsWith("/app")
+      ? "/app"
+      : "";
+
+  if (image.startsWith("assets/") || image.startsWith("./")) {
+    return image.startsWith("./") ? image : `${basePath}/${image}`;
+  }
+
+  return `${basePath}/assets/projects/${image}`;
+}
 
   
   addCards() {

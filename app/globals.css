@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #f0f0ee;
+}
+
+canvas {
+  display: block;
+}
+
+#container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+#scroll-spacer {
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+}

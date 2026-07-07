@@ -1,0 +1,7 @@
+.vercel
+public/assets
+.parcel-cache
+node_modules
+.next
+dist
+.env

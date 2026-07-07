@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Hubtown",
+    "description": "Portfolio Website, Immersive Experience",
+    "link": "https://merchantxporter.com/",
+    "category": ["digital"],
+    "image": "project_1.webp",
+    "aspect": 0.902
+  },
+  {
+    "title": "Poly",
+    "description": "Website Design",
+    "link": "https://www.deepbuilders.com/",
+    "category": ["digital"],
+    "image": "project_2.webp",
+    "aspect": 1.202
+  },
+  {
+    "title": "OceanX",
+    "description": "A Year of Discovery",
+    "link": "https://tarakshlaw.com/",
+    "category": ["digital"],
+    "image": "project_3.webp",
+    "aspect": 1.402
+  },
+  {
+    "title": "The Symphony Of Vines",
+    "description": "Interactive Cinematic Experience",
+    "link": "https://sellersumbrella.com/",
+    "category": ["digital", "motion"],
+    "image": "project_4.webp",
+    "aspect": 1.302
+  },
+  {
+    "title": "Klook",
+    "description": "Interactive Quiz",
+    "link": "https://www.signaturespacesrealty.com/",
+    "category": ["digital"],
+    "image": "project_5.webp",
+    "aspect": 1.102
+  },
+  {
+    "title": "RSPCA Animal Futures",
+    "description": "Interactive Learning Experience",
+    "link": "https://myjucas.com/",
+    "category": ["digital"],
+    "image": "project_6.webp",
+    "aspect": 1.202
+  },
+  {
+    "title": "BlueYard",
+    "description": "Portfolio website",
+    "link": "https://www.sayasuka-water.com/",
+    "category": ["digital"],
+    "image": "project_7.webp",
+    "aspect": 1.233
+  },
+  {
+    "title": "Cosmos",
+    "description": "Marketing Website",
+    "link": "https://www.ceel.io/",
+    "category": ["digital"],
+    "image": "project_8.webp",
+    "aspect": 1.207
+  }
+]
